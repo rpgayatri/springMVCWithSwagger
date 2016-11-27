@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
+@RequestMapping("/api")
 public class TestController {
 	private static final Logger logger = Logger.getLogger(TestController.class);
 
